@@ -7,6 +7,7 @@
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "main.c" 2
+
 # 1 "./mcc_generated_files/mcc.h" 1
 # 49 "./mcc_generated_files/mcc.h"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\xc.h" 1 3
@@ -7743,17 +7744,17 @@ extern __bank0 __bit __timeout;
 # 50 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/pin_manager.h" 1
-# 311 "./mcc_generated_files/pin_manager.h"
+# 351 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 323 "./mcc_generated_files/pin_manager.h"
+# 363 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
-# 336 "./mcc_generated_files/pin_manager.h"
+# 376 "./mcc_generated_files/pin_manager.h"
 void IOCCF4_ISR(void);
-# 359 "./mcc_generated_files/pin_manager.h"
+# 399 "./mcc_generated_files/pin_manager.h"
 void IOCCF4_SetInterruptHandler(void (* InterruptHandler)(void));
-# 383 "./mcc_generated_files/pin_manager.h"
+# 423 "./mcc_generated_files/pin_manager.h"
 extern void (*IOCCF4_InterruptHandler)(void);
-# 407 "./mcc_generated_files/pin_manager.h"
+# 447 "./mcc_generated_files/pin_manager.h"
 void IOCCF4_DefaultInterruptHandler(void);
 # 51 "./mcc_generated_files/mcc.h" 2
 
@@ -7920,37 +7921,6 @@ char *tempnam(const char *, const char *);
 # 1 "./mcc_generated_files/interrupt_manager.h" 1
 # 55 "./mcc_generated_files/mcc.h" 2
 
-# 1 "./mcc_generated_files/pwm1.h" 1
-# 94 "./mcc_generated_files/pwm1.h"
-void PWM1_Initialize(void);
-# 123 "./mcc_generated_files/pwm1.h"
-void PWM1_Start(void);
-# 155 "./mcc_generated_files/pwm1.h"
-void PWM1_Stop(void);
-# 180 "./mcc_generated_files/pwm1.h"
-_Bool PWM1_CheckOutputStatus(void);
-# 203 "./mcc_generated_files/pwm1.h"
-void PWM1_LoadBufferSet(void);
-# 226 "./mcc_generated_files/pwm1.h"
-void PWM1_PhaseSet(uint16_t phaseCount);
-# 249 "./mcc_generated_files/pwm1.h"
-void PWM1_DutyCycleSet(uint16_t dutyCycleCount);
-# 272 "./mcc_generated_files/pwm1.h"
-void PWM1_PeriodSet(uint16_t periodCount);
-# 295 "./mcc_generated_files/pwm1.h"
-void PWM1_OffsetSet(uint16_t offsetCount);
-# 318 "./mcc_generated_files/pwm1.h"
-uint16_t PWM1_TimerCountGet(void);
-# 342 "./mcc_generated_files/pwm1.h"
-_Bool PWM1_IsOffsetMatchOccured(void);
-# 366 "./mcc_generated_files/pwm1.h"
-_Bool PWM1_IsPhaseMatchOccured(void);
-# 390 "./mcc_generated_files/pwm1.h"
-_Bool PWM1_IsDutyCycleMatchOccured(void);
-# 414 "./mcc_generated_files/pwm1.h"
-_Bool PWM1_IsPeriodMatchOccured(void);
-# 56 "./mcc_generated_files/mcc.h" 2
-
 # 1 "./mcc_generated_files/pwm2.h" 1
 # 94 "./mcc_generated_files/pwm2.h"
 void PWM2_Initialize(void);
@@ -7980,6 +7950,37 @@ _Bool PWM2_IsPhaseMatchOccured(void);
 _Bool PWM2_IsDutyCycleMatchOccured(void);
 # 414 "./mcc_generated_files/pwm2.h"
 _Bool PWM2_IsPeriodMatchOccured(void);
+# 56 "./mcc_generated_files/mcc.h" 2
+
+# 1 "./mcc_generated_files/pwm1.h" 1
+# 94 "./mcc_generated_files/pwm1.h"
+void PWM1_Initialize(void);
+# 123 "./mcc_generated_files/pwm1.h"
+void PWM1_Start(void);
+# 155 "./mcc_generated_files/pwm1.h"
+void PWM1_Stop(void);
+# 180 "./mcc_generated_files/pwm1.h"
+_Bool PWM1_CheckOutputStatus(void);
+# 203 "./mcc_generated_files/pwm1.h"
+void PWM1_LoadBufferSet(void);
+# 226 "./mcc_generated_files/pwm1.h"
+void PWM1_PhaseSet(uint16_t phaseCount);
+# 249 "./mcc_generated_files/pwm1.h"
+void PWM1_DutyCycleSet(uint16_t dutyCycleCount);
+# 272 "./mcc_generated_files/pwm1.h"
+void PWM1_PeriodSet(uint16_t periodCount);
+# 295 "./mcc_generated_files/pwm1.h"
+void PWM1_OffsetSet(uint16_t offsetCount);
+# 318 "./mcc_generated_files/pwm1.h"
+uint16_t PWM1_TimerCountGet(void);
+# 342 "./mcc_generated_files/pwm1.h"
+_Bool PWM1_IsOffsetMatchOccured(void);
+# 366 "./mcc_generated_files/pwm1.h"
+_Bool PWM1_IsPhaseMatchOccured(void);
+# 390 "./mcc_generated_files/pwm1.h"
+_Bool PWM1_IsDutyCycleMatchOccured(void);
+# 414 "./mcc_generated_files/pwm1.h"
+_Bool PWM1_IsPeriodMatchOccured(void);
 # 57 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/pwm3.h" 1
@@ -8049,7 +8050,7 @@ void SYSTEM_Initialize(void);
 void OSCILLATOR_Initialize(void);
 # 99 "./mcc_generated_files/mcc.h"
 void WDT_Initialize(void);
-# 1 "main.c" 2
+# 2 "main.c" 2
 
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\c99\\string.h" 1 3
@@ -8109,7 +8110,7 @@ size_t strxfrm_l (char *restrict, const char *restrict, size_t, locale_t);
 
 
 void *memccpy (void *restrict, const void *restrict, int, size_t);
-# 3 "main.c" 2
+# 4 "main.c" 2
 
 # 1 "./soft_i2c.h" 1
 # 19 "./soft_i2c.h"
@@ -8120,7 +8121,7 @@ void I2C_acksnd();
 void I2C_nacksnd();
 unsigned char I2C_rcv();
 void I2C_stop();
-# 4 "main.c" 2
+# 5 "main.c" 2
 
 # 1 "./lcd_i2c.h" 1
 # 21 "./lcd_i2c.h"
@@ -8128,7 +8129,7 @@ void LCD_i2c_init(unsigned char ctr);
 void LCD_i2C_cmd(unsigned char cmd);
 void LCD_i2C_data(char *str);
 void LCD_clear_pos(unsigned char cmd);
-# 5 "main.c" 2
+# 6 "main.c" 2
 
 
 
@@ -8136,7 +8137,7 @@ typedef union tagPWM4 {
     uint16_t pwm[4];
     uint8_t buf[8];
 } PWM4;
-# 21 "main.c"
+# 22 "main.c"
 uint16_t pwm0[4] = {12000,12000,12000,12000};
 PWM4 data;
 
@@ -8184,7 +8185,7 @@ void set_pwm(void) {
 void int_strb(void) {
     uint8_t b, d;
 
-    do { LATCbits.LATC7 = 1; } while(0);
+
     for (uint8_t idx=0; idx<8; idx++) {
         d = 0;
         for (b=0; b<8; b++) {
@@ -8196,7 +8197,7 @@ void int_strb(void) {
         data.buf[idx] = d;
     }
     set_pwm();
-    do { LATCbits.LATC7 = 0; } while(0);
+
 }
 
 
@@ -8217,6 +8218,11 @@ void main(void)
     do { LATAbits.LATA4 = 1; } while(0);
     (INTCONbits.GIE = 1);
     (INTCONbits.PEIE = 1);
+
+    do { LATCbits.LATC7 = 1; } while(0);
+    _delay((unsigned long)((100)*(32000000/4000.0)));
+    do { LATCbits.LATC7 = 0; } while(0);
+
 
     while (1) {
         __asm("clrwdt");

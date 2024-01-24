@@ -7739,17 +7739,17 @@ extern __bank0 __bit __powerdown;
 extern __bank0 __bit __timeout;
 # 28 "C:\\Program Files\\Microchip\\xc8\\v2.41\\pic\\include\\xc.h" 2 3
 # 54 "mcc_generated_files/pin_manager.h" 2
-# 311 "mcc_generated_files/pin_manager.h"
+# 351 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 323 "mcc_generated_files/pin_manager.h"
+# 363 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
-# 336 "mcc_generated_files/pin_manager.h"
+# 376 "mcc_generated_files/pin_manager.h"
 void IOCCF4_ISR(void);
-# 359 "mcc_generated_files/pin_manager.h"
+# 399 "mcc_generated_files/pin_manager.h"
 void IOCCF4_SetInterruptHandler(void (* InterruptHandler)(void));
-# 383 "mcc_generated_files/pin_manager.h"
+# 423 "mcc_generated_files/pin_manager.h"
 extern void (*IOCCF4_InterruptHandler)(void);
-# 407 "mcc_generated_files/pin_manager.h"
+# 447 "mcc_generated_files/pin_manager.h"
 void IOCCF4_DefaultInterruptHandler(void);
 # 49 "mcc_generated_files/pin_manager.c" 2
 
@@ -7772,16 +7772,16 @@ void PIN_MANAGER_Initialize(void)
 
 
 
-    TRISA = 0x2E;
+    TRISA = 0x2A;
     TRISB = 0x00;
-    TRISC = 0x5A;
+    TRISC = 0x58;
 
 
 
 
-    ANSELC = 0x02;
+    ANSELC = 0x00;
     ANSELB = 0x00;
-    ANSELA = 0x06;
+    ANSELA = 0x02;
 
 
 

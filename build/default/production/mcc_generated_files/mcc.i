@@ -7744,17 +7744,17 @@ extern __bank0 __bit __timeout;
 # 50 "mcc_generated_files/mcc.h" 2
 
 # 1 "mcc_generated_files/pin_manager.h" 1
-# 311 "mcc_generated_files/pin_manager.h"
+# 351 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 323 "mcc_generated_files/pin_manager.h"
+# 363 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
-# 336 "mcc_generated_files/pin_manager.h"
+# 376 "mcc_generated_files/pin_manager.h"
 void IOCCF4_ISR(void);
-# 359 "mcc_generated_files/pin_manager.h"
+# 399 "mcc_generated_files/pin_manager.h"
 void IOCCF4_SetInterruptHandler(void (* InterruptHandler)(void));
-# 383 "mcc_generated_files/pin_manager.h"
+# 423 "mcc_generated_files/pin_manager.h"
 extern void (*IOCCF4_InterruptHandler)(void);
-# 407 "mcc_generated_files/pin_manager.h"
+# 447 "mcc_generated_files/pin_manager.h"
 void IOCCF4_DefaultInterruptHandler(void);
 # 51 "mcc_generated_files/mcc.h" 2
 
@@ -7921,37 +7921,6 @@ char *tempnam(const char *, const char *);
 # 1 "mcc_generated_files/interrupt_manager.h" 1
 # 55 "mcc_generated_files/mcc.h" 2
 
-# 1 "mcc_generated_files/pwm1.h" 1
-# 94 "mcc_generated_files/pwm1.h"
-void PWM1_Initialize(void);
-# 123 "mcc_generated_files/pwm1.h"
-void PWM1_Start(void);
-# 155 "mcc_generated_files/pwm1.h"
-void PWM1_Stop(void);
-# 180 "mcc_generated_files/pwm1.h"
-_Bool PWM1_CheckOutputStatus(void);
-# 203 "mcc_generated_files/pwm1.h"
-void PWM1_LoadBufferSet(void);
-# 226 "mcc_generated_files/pwm1.h"
-void PWM1_PhaseSet(uint16_t phaseCount);
-# 249 "mcc_generated_files/pwm1.h"
-void PWM1_DutyCycleSet(uint16_t dutyCycleCount);
-# 272 "mcc_generated_files/pwm1.h"
-void PWM1_PeriodSet(uint16_t periodCount);
-# 295 "mcc_generated_files/pwm1.h"
-void PWM1_OffsetSet(uint16_t offsetCount);
-# 318 "mcc_generated_files/pwm1.h"
-uint16_t PWM1_TimerCountGet(void);
-# 342 "mcc_generated_files/pwm1.h"
-_Bool PWM1_IsOffsetMatchOccured(void);
-# 366 "mcc_generated_files/pwm1.h"
-_Bool PWM1_IsPhaseMatchOccured(void);
-# 390 "mcc_generated_files/pwm1.h"
-_Bool PWM1_IsDutyCycleMatchOccured(void);
-# 414 "mcc_generated_files/pwm1.h"
-_Bool PWM1_IsPeriodMatchOccured(void);
-# 56 "mcc_generated_files/mcc.h" 2
-
 # 1 "mcc_generated_files/pwm2.h" 1
 # 94 "mcc_generated_files/pwm2.h"
 void PWM2_Initialize(void);
@@ -7981,6 +7950,37 @@ _Bool PWM2_IsPhaseMatchOccured(void);
 _Bool PWM2_IsDutyCycleMatchOccured(void);
 # 414 "mcc_generated_files/pwm2.h"
 _Bool PWM2_IsPeriodMatchOccured(void);
+# 56 "mcc_generated_files/mcc.h" 2
+
+# 1 "mcc_generated_files/pwm1.h" 1
+# 94 "mcc_generated_files/pwm1.h"
+void PWM1_Initialize(void);
+# 123 "mcc_generated_files/pwm1.h"
+void PWM1_Start(void);
+# 155 "mcc_generated_files/pwm1.h"
+void PWM1_Stop(void);
+# 180 "mcc_generated_files/pwm1.h"
+_Bool PWM1_CheckOutputStatus(void);
+# 203 "mcc_generated_files/pwm1.h"
+void PWM1_LoadBufferSet(void);
+# 226 "mcc_generated_files/pwm1.h"
+void PWM1_PhaseSet(uint16_t phaseCount);
+# 249 "mcc_generated_files/pwm1.h"
+void PWM1_DutyCycleSet(uint16_t dutyCycleCount);
+# 272 "mcc_generated_files/pwm1.h"
+void PWM1_PeriodSet(uint16_t periodCount);
+# 295 "mcc_generated_files/pwm1.h"
+void PWM1_OffsetSet(uint16_t offsetCount);
+# 318 "mcc_generated_files/pwm1.h"
+uint16_t PWM1_TimerCountGet(void);
+# 342 "mcc_generated_files/pwm1.h"
+_Bool PWM1_IsOffsetMatchOccured(void);
+# 366 "mcc_generated_files/pwm1.h"
+_Bool PWM1_IsPhaseMatchOccured(void);
+# 390 "mcc_generated_files/pwm1.h"
+_Bool PWM1_IsDutyCycleMatchOccured(void);
+# 414 "mcc_generated_files/pwm1.h"
+_Bool PWM1_IsPeriodMatchOccured(void);
 # 57 "mcc_generated_files/mcc.h" 2
 
 # 1 "mcc_generated_files/pwm3.h" 1

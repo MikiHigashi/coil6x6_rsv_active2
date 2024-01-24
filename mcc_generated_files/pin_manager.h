@@ -77,6 +77,26 @@
 #define RA0_SetAnalogMode()         do { ANSELAbits.ANSA0 = 1; } while(0)
 #define RA0_SetDigitalMode()        do { ANSELAbits.ANSA0 = 0; } while(0)
 
+// get/set GEARR aliases
+#define GEARR_TRIS                 TRISAbits.TRISA2
+#define GEARR_LAT                  LATAbits.LATA2
+#define GEARR_PORT                 PORTAbits.RA2
+#define GEARR_WPU                  WPUAbits.WPUA2
+#define GEARR_OD                   ODCONAbits.ODA2
+#define GEARR_ANS                  ANSELAbits.ANSA2
+#define GEARR_SetHigh()            do { LATAbits.LATA2 = 1; } while(0)
+#define GEARR_SetLow()             do { LATAbits.LATA2 = 0; } while(0)
+#define GEARR_Toggle()             do { LATAbits.LATA2 = ~LATAbits.LATA2; } while(0)
+#define GEARR_GetValue()           PORTAbits.RA2
+#define GEARR_SetDigitalInput()    do { TRISAbits.TRISA2 = 1; } while(0)
+#define GEARR_SetDigitalOutput()   do { TRISAbits.TRISA2 = 0; } while(0)
+#define GEARR_SetPullup()          do { WPUAbits.WPUA2 = 1; } while(0)
+#define GEARR_ResetPullup()        do { WPUAbits.WPUA2 = 0; } while(0)
+#define GEARR_SetPushPull()        do { ODCONAbits.ODA2 = 0; } while(0)
+#define GEARR_SetOpenDrain()       do { ODCONAbits.ODA2 = 1; } while(0)
+#define GEARR_SetAnalogMode()      do { ANSELAbits.ANSA2 = 1; } while(0)
+#define GEARR_SetDigitalMode()     do { ANSELAbits.ANSA2 = 0; } while(0)
+
 // get/set LED2 aliases
 #define LED2_TRIS                 TRISAbits.TRISA4
 #define LED2_LAT                  LATAbits.LATA4
@@ -183,6 +203,26 @@
 #define RC0_ResetPullup()           do { WPUCbits.WPUC0 = 0; } while(0)
 #define RC0_SetAnalogMode()         do { ANSELCbits.ANSC0 = 1; } while(0)
 #define RC0_SetDigitalMode()        do { ANSELCbits.ANSC0 = 0; } while(0)
+
+// get/set GEARL aliases
+#define GEARL_TRIS                 TRISCbits.TRISC1
+#define GEARL_LAT                  LATCbits.LATC1
+#define GEARL_PORT                 PORTCbits.RC1
+#define GEARL_WPU                  WPUCbits.WPUC1
+#define GEARL_OD                   ODCONCbits.ODC1
+#define GEARL_ANS                  ANSELCbits.ANSC1
+#define GEARL_SetHigh()            do { LATCbits.LATC1 = 1; } while(0)
+#define GEARL_SetLow()             do { LATCbits.LATC1 = 0; } while(0)
+#define GEARL_Toggle()             do { LATCbits.LATC1 = ~LATCbits.LATC1; } while(0)
+#define GEARL_GetValue()           PORTCbits.RC1
+#define GEARL_SetDigitalInput()    do { TRISCbits.TRISC1 = 1; } while(0)
+#define GEARL_SetDigitalOutput()   do { TRISCbits.TRISC1 = 0; } while(0)
+#define GEARL_SetPullup()          do { WPUCbits.WPUC1 = 1; } while(0)
+#define GEARL_ResetPullup()        do { WPUCbits.WPUC1 = 0; } while(0)
+#define GEARL_SetPushPull()        do { ODCONCbits.ODC1 = 0; } while(0)
+#define GEARL_SetOpenDrain()       do { ODCONCbits.ODC1 = 1; } while(0)
+#define GEARL_SetAnalogMode()      do { ANSELCbits.ANSC1 = 1; } while(0)
+#define GEARL_SetDigitalMode()     do { ANSELCbits.ANSC1 = 0; } while(0)
 
 // get/set DCDC aliases
 #define DCDC_TRIS                 TRISCbits.TRISC2

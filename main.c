@@ -1,3 +1,4 @@
+// 主電源基板
 #include "mcc_generated_files/mcc.h"
 #include <stdio.h>
 #include <string.h>
@@ -65,7 +66,7 @@ void set_pwm(void) {
 void int_strb(void) {
     uint8_t b, d; //, *dp = data.buf;
 
-    LED1_SetHigh();
+//    LED1_SetHigh();
     for (uint8_t idx=0; idx<SPI_BYTES; idx++) {
         d = 0;
         for (b=0; b<8; b++) {
@@ -77,7 +78,7 @@ void int_strb(void) {
         data.buf[idx] = d;
     }
     set_pwm();
-    LED1_SetLow();
+//    LED1_SetLow();
 }
 
 
@@ -98,6 +99,11 @@ void main(void)
     LED2_SetHigh();
     INTERRUPT_GlobalInterruptEnable();
     INTERRUPT_PeripheralInterruptEnable();
+
+    LED1_SetHigh();
+    __delay_ms(100);
+    LED1_SetLow();
+
     
     while (1) {
         CLRWDT();
