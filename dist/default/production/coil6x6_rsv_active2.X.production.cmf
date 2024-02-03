@@ -13,43 +13,45 @@
 %PSECTS
 $dist/default/production\coil6x6_rsv_active2.X.production.o
 cinit CODE 0 15 15 1B 2 1
-text1 CODE 0 236 236 16 2 1
-text2 CODE 0 29C 29C 4 2 1
-text3 CODE 0 1D2 1D2 19 2 1
-text4 CODE 0 1EB 1EB 19 2 1
-text5 CODE 0 204 204 19 2 1
-text6 CODE 0 21D 21D 19 2 1
-text7 CODE 0 162 162 3D 2 1
-text8 CODE 0 27E 27E 6 2 1
-text9 CODE 0 25B 25B C 2 1
-text11 CODE 0 267 267 9 2 1
-text12 CODE 0 24C 24C F 2 1
-text13 CODE 0 2B8 2B8 1 2 1
-text14 CODE 0 19F 19F 33 2 1
-text15 CODE 0 30 30 B4 2 1
-text16 CODE 0 2A0 2A0 3 2 1
-text17 CODE 0 2A3 2A3 3 2 1
-text18 CODE 0 284 284 6 2 1
-text19 CODE 0 2A6 2A6 3 2 1
-text20 CODE 0 2A9 2A9 3 2 1
-text21 CODE 0 28A 28A 6 2 1
-text22 CODE 0 2AC 2AC 3 2 1
-text23 CODE 0 2AF 2AF 3 2 1
-text24 CODE 0 290 290 6 2 1
-text25 CODE 0 2B2 2B2 3 2 1
-text26 CODE 0 2B5 2B5 3 2 1
-text27 CODE 0 296 296 6 2 1
-nvBANK0 BANK0 1 37 37 2 1 1
-maintext CODE 0 E4 E4 7E 2 1
+text1 CODE 0 1D3 1D3 2E 2 1
+text2 CODE 0 265 265 16 2 1
+text3 CODE 0 2CB 2CB 4 2 1
+text4 CODE 0 201 201 19 2 1
+text5 CODE 0 21A 21A 19 2 1
+text6 CODE 0 233 233 19 2 1
+text7 CODE 0 24C 24C 19 2 1
+text8 CODE 0 163 163 3D 2 1
+text9 CODE 0 2AD 2AD 6 2 1
+text10 CODE 0 28A 28A C 2 1
+text12 CODE 0 296 296 9 2 1
+text13 CODE 0 27B 27B F 2 1
+text14 CODE 0 2E7 2E7 1 2 1
+text15 CODE 0 1A0 1A0 33 2 1
+text16 CODE 0 30 30 CE 2 1
+text17 CODE 0 2CF 2CF 3 2 1
+text18 CODE 0 2D2 2D2 3 2 1
+text19 CODE 0 2B3 2B3 6 2 1
+text20 CODE 0 2D5 2D5 3 2 1
+text21 CODE 0 2D8 2D8 3 2 1
+text22 CODE 0 2B9 2B9 6 2 1
+text23 CODE 0 2DB 2DB 3 2 1
+text24 CODE 0 2DE 2DE 3 2 1
+text25 CODE 0 2BF 2BF 6 2 1
+text26 CODE 0 2E1 2E1 3 2 1
+text27 CODE 0 2E4 2E4 3 2 1
+text28 CODE 0 2C5 2C5 6 2 1
+nvBANK0 BANK0 1 36 36 2 1 1
+maintext CODE 0 FE FE 65 2 1
 cstackCOMMON COMMON 1 70 70 D 1 1
-cstackBANK0 BANK0 1 33 33 4 1 1
-inittext CODE 0 278 278 6 2 1
+cstackBANK0 BANK0 1 32 32 4 1 1
+inittext CODE 0 2A7 2A7 6 2 1
 intentry CODE 0 4 4 F 2 1
-bssBANK0 BANK0 1 20 20 B 1 1
-idataBANK0 CODE 0 270 270 8 2 1
-dataBANK0 BANK0 1 2B 2B 8 1 1
+bssBANK0 BANK0 1 20 20 A 1 1
+idataBANK0 CODE 0 29F 29F 8 2 1
+dataBANK0 BANK0 1 2A 2A 8 1 1
+bssCOMMON COMMON 1 7D 7D 1 1 1
 config CONFIG 4 8007 8007 2 2 1
-$C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
+$C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
 reset_vec CODE 0 0 0 2 2 1
 end_init CODE 0 13 13 2 2 1
 config CONFIG 4 8007 8007 2 2 1
@@ -59,7 +61,7 @@ config CONFIG 4 8007 8007 2 2 1
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM 39-6F 1
+RAM 38-6F 1
 RAM A0-EF 1
 RAM 120-16F 1
 RAM 1A0-1EF 1
@@ -72,7 +74,7 @@ RAM 4A0-4EF 1
 RAM 520-56F 1
 RAM 5A0-5EF 1
 RAM 620-63F 1
-BANK0 39-6F 1
+BANK0 38-6F 1
 BANK1 A0-EF 1
 BANK2 120-16F 1
 BANK3 1A0-1EF 1
@@ -83,9 +85,9 @@ BANK7 3A0-3EF 1
 BANK8 420-46F 1
 BANK9 4A0-4EF 1
 CONST 2-3 2
-CONST 2B9-1FFF 2
+CONST 2E8-1FFF 2
 ENTRY 2-3 2
-ENTRY 2B9-1FFF 2
+ENTRY 2E8-1FFF 2
 IDLOC 8000-8003 2
 SFR10 500-51F 1
 SFR11 580-59F 1
@@ -110,7 +112,7 @@ SFR29 E80-EEF 1
 SFR30 F00-F6F 1
 SFR31 F80-FEF 1
 CODE 2-3 2
-CODE 2B9-1FFF 2
+CODE 2E8-1FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
 SFR2 100-11F 1
@@ -125,11 +127,10 @@ BANK10 520-56F 1
 BANK11 5A0-5EF 1
 BANK12 620-63F 1
 BIGRAM 2000-23DF 1
-COMMON 7D-7D 1
 STRCODE 2-3 2
-STRCODE 2B9-1FFF 2
+STRCODE 2E8-1FFF 2
 STRING 2-3 2
-STRING 2B9-1FFF 2
+STRING 2E8-1FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -144,314 +145,324 @@ STRING 2B9-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\coil6x6_rsv_active2.X.production.o
-15 cinit CODE >5177:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-15 cinit CODE >5180:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-15 cinit CODE >5219:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-16 cinit CODE >5220:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-17 cinit CODE >5221:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-18 cinit CODE >5222:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-19 cinit CODE >5223:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-1A cinit CODE >5224:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-1B cinit CODE >5225:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-1C cinit CODE >5226:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-1D cinit CODE >5227:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-1E cinit CODE >5228:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-21 cinit CODE >5233:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-22 cinit CODE >5234:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-23 cinit CODE >5235:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-24 cinit CODE >5236:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-25 cinit CODE >5237:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-26 cinit CODE >5238:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-27 cinit CODE >5239:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-28 cinit CODE >5240:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-29 cinit CODE >5241:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-2A cinit CODE >5242:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-2B cinit CODE >5243:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-2C cinit CODE >5249:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-2C cinit CODE >5251:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-2D cinit CODE >5252:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-2E cinit CODE >5253:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
+15 cinit CODE >5177:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+15 cinit CODE >5180:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+15 cinit CODE >5222:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+16 cinit CODE >5223:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+17 cinit CODE >5224:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+18 cinit CODE >5225:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+19 cinit CODE >5226:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+1A cinit CODE >5227:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+1B cinit CODE >5228:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+1C cinit CODE >5229:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+1D cinit CODE >5230:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+1E cinit CODE >5231:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+21 cinit CODE >5236:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+22 cinit CODE >5240:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+23 cinit CODE >5241:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+24 cinit CODE >5242:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+25 cinit CODE >5243:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+26 cinit CODE >5244:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+27 cinit CODE >5245:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+28 cinit CODE >5246:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+29 cinit CODE >5247:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+2A cinit CODE >5248:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+2B cinit CODE >5249:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+2C cinit CODE >5255:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+2C cinit CODE >5257:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+2D cinit CODE >5258:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+2E cinit CODE >5259:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
 4 intentry CODE >52:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/interrupt_manager.c
 6 intentry CODE >55:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/interrupt_manager.c
 E intentry CODE >57:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/interrupt_manager.c
 11 intentry CODE >63:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/interrupt_manager.c
-296 text27 CODE >139:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-296 text27 CODE >141:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-299 text27 CODE >142:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-29B text27 CODE >143:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-2B5 text26 CODE >128:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-2B5 text26 CODE >130:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-2B7 text26 CODE >131:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-2B2 text25 CODE >113:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-2B2 text25 CODE >115:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-2B4 text25 CODE >116:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-290 text24 CODE >139:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-290 text24 CODE >141:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-293 text24 CODE >142:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-295 text24 CODE >143:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-2AF text23 CODE >128:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-2AF text23 CODE >130:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-2B1 text23 CODE >131:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-2AC text22 CODE >113:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-2AC text22 CODE >115:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-2AE text22 CODE >116:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-28A text21 CODE >139:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-28A text21 CODE >141:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-28D text21 CODE >142:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-28F text21 CODE >143:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-2A9 text20 CODE >128:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-2A9 text20 CODE >130:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-2AB text20 CODE >131:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-2A6 text19 CODE >113:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-2A6 text19 CODE >115:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-2A8 text19 CODE >116:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-284 text18 CODE >139:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-284 text18 CODE >141:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-287 text18 CODE >142:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-289 text18 CODE >143:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-2A3 text17 CODE >128:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-2A3 text17 CODE >130:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-2A5 text17 CODE >131:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-2A0 text16 CODE >113:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-2A0 text16 CODE >115:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-2A2 text16 CODE >116:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-30 text15 CODE >26:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-30 text15 CODE >31:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-31 text15 CODE >32:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-39 text15 CODE >33:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-3C text15 CODE >33:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-3E text15 CODE >33:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-43 text15 CODE >34:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-46 text15 CODE >34:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-48 text15 CODE >34:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-4D text15 CODE >35:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-55 text15 CODE >36:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-5B text15 CODE >37:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-5D text15 CODE >37:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-61 text15 CODE >37:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-65 text15 CODE >38:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-6E text15 CODE >38:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-70 text15 CODE >38:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-74 text15 CODE >39:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-7A text15 CODE >42:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-7C text15 CODE >42:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-80 text15 CODE >42:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-84 text15 CODE >43:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-8D text15 CODE >43:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-8F text15 CODE >43:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-93 text15 CODE >44:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-99 text15 CODE >48:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-A1 text15 CODE >49:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-A7 text15 CODE >49:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-AB text15 CODE >51:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-B3 text15 CODE >52:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-BB text15 CODE >53:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-C3 text15 CODE >54:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-CB text15 CODE >55:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-CE text15 CODE >56:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-D1 text15 CODE >57:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-D4 text15 CODE >58:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-D7 text15 CODE >59:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-DA text15 CODE >60:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-DD text15 CODE >61:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-E0 text15 CODE >62:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-E3 text15 CODE >63:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-19F text14 CODE >66:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-19F text14 CODE >70:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-1A0 text14 CODE >71:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-1A1 text14 CODE >72:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-1A2 text14 CODE >73:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-1A7 text14 CODE >74:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-1A9 text14 CODE >75:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-1AD text14 CODE >76:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-1B4 text14 CODE >77:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-1BA text14 CODE >77:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-1BE text14 CODE >78:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-1C4 text14 CODE >79:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-1CA text14 CODE >79:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-1CE text14 CODE >80:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-1D1 text14 CODE >82:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-2B8 text13 CODE >169:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-2B8 text13 CODE >172:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-24C text12 CODE >147:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-24C text12 CODE >152:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-253 text12 CODE >154:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-258 text12 CODE >156:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-25A text12 CODE >157:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-267 text11 CODE >135:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-267 text11 CODE >138:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-26C text11 CODE >140:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-26F text11 CODE >142:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-25B text9 CODE >62:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-25B text9 CODE >65:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-25E text9 CODE >67:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-25F text9 CODE >69:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-261 text9 CODE >71:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-261 text9 CODE >73:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-266 text9 CODE >74:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-27E text8 CODE >162:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-27E text8 CODE >163:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-283 text8 CODE >164:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-162 text7 CODE >57:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-162 text7 CODE >62:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-164 text7 CODE >63:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-165 text7 CODE >64:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-166 text7 CODE >69:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-169 text7 CODE >70:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-16A text7 CODE >71:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-16C text7 CODE >76:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-16E text7 CODE >77:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-16F text7 CODE >78:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-171 text7 CODE >83:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-173 text7 CODE >84:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-174 text7 CODE >85:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-175 text7 CODE >86:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-177 text7 CODE >91:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-179 text7 CODE >92:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-17A text7 CODE >93:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-17B text7 CODE >98:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-17E text7 CODE >99:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-180 text7 CODE >100:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-182 text7 CODE >105:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-185 text7 CODE >106:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-187 text7 CODE >107:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-189 text7 CODE >114:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-18A text7 CODE >116:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-18B text7 CODE >118:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-18C text7 CODE >123:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-194 text7 CODE >126:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-195 text7 CODE >129:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-198 text7 CODE >130:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-19A text7 CODE >131:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-19C text7 CODE >132:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-19E text7 CODE >133:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
-21D text6 CODE >58:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-21D text6 CODE >63:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-21F text6 CODE >66:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-220 text6 CODE >69:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-222 text6 CODE >72:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-223 text6 CODE >75:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-224 text6 CODE >78:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-225 text6 CODE >81:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-226 text6 CODE >84:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-228 text6 CODE >87:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-22A text6 CODE >90:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-22C text6 CODE >93:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-22E text6 CODE >96:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-22F text6 CODE >99:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-231 text6 CODE >102:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-232 text6 CODE >105:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-233 text6 CODE >108:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-235 text6 CODE >110:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
-204 text5 CODE >58:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-204 text5 CODE >63:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-206 text5 CODE >66:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-207 text5 CODE >69:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-209 text5 CODE >72:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-20A text5 CODE >75:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-20B text5 CODE >78:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-20C text5 CODE >81:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-20D text5 CODE >84:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-20F text5 CODE >87:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-211 text5 CODE >90:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-213 text5 CODE >93:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-215 text5 CODE >96:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-216 text5 CODE >99:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-218 text5 CODE >102:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-219 text5 CODE >105:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-21A text5 CODE >108:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-21C text5 CODE >110:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
-1EB text4 CODE >58:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1EB text4 CODE >63:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1ED text4 CODE >66:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1EE text4 CODE >69:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1F0 text4 CODE >72:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1F1 text4 CODE >75:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1F2 text4 CODE >78:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1F3 text4 CODE >81:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1F4 text4 CODE >84:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1F6 text4 CODE >87:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1F8 text4 CODE >90:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1FA text4 CODE >93:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1FC text4 CODE >96:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1FD text4 CODE >99:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1FF text4 CODE >102:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-200 text4 CODE >105:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-201 text4 CODE >108:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-203 text4 CODE >110:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
-1D2 text3 CODE >58:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1D2 text3 CODE >63:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1D4 text3 CODE >66:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1D5 text3 CODE >69:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1D7 text3 CODE >72:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1D8 text3 CODE >75:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1D9 text3 CODE >78:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1DA text3 CODE >81:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1DB text3 CODE >84:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1DD text3 CODE >87:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1DF text3 CODE >90:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1E1 text3 CODE >93:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1E3 text3 CODE >96:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1E4 text3 CODE >99:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1E6 text3 CODE >102:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1E7 text3 CODE >105:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1E8 text3 CODE >108:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-1EA text3 CODE >110:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
-29C text2 CODE >76:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-29C text2 CODE >79:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-29F text2 CODE >80:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-236 text1 CODE >50:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-236 text1 CODE >53:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-239 text1 CODE >54:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-23C text1 CODE >55:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-23F text1 CODE >56:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-242 text1 CODE >57:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-245 text1 CODE >58:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-248 text1 CODE >59:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-24B text1 CODE >60:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
-E4 maintext CODE >90:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-E4 maintext CODE >92:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-E7 maintext CODE >93:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-EF maintext CODE >94:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-F1 maintext CODE >95:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-101 maintext CODE >96:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-107 maintext CODE >96:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-10B maintext CODE >97:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-10D maintext CODE >98:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-10E maintext CODE >99:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-10F maintext CODE >100:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-110 maintext CODE >101:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-111 maintext CODE >103:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-112 maintext CODE >104:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-11E maintext CODE >105:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-120 maintext CODE >108:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-120 maintext CODE >109:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-121 maintext CODE >110:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-127 maintext CODE >111:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-12B maintext CODE >112:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-12F maintext CODE >113:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-131 maintext CODE >113:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-135 maintext CODE >114:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-136 maintext CODE >115:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-139 maintext CODE >119:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-13B maintext CODE >122:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-140 maintext CODE >123:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-145 maintext CODE >127:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-149 maintext CODE >128:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-14B maintext CODE >128:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-14F maintext CODE >129:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-152 maintext CODE >134:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-154 maintext CODE >135:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-155 maintext CODE >136:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-156 maintext CODE >138:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
-278 inittext CODE >5208:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-278 inittext CODE >5209:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-279 inittext CODE >5210:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-279 inittext CODE >5211:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-27A inittext CODE >5212:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-27B inittext CODE >5213:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-27C inittext CODE >5214:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
-27D inittext CODE >5215:C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_1.s
+2C5 text28 CODE >139:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+2C5 text28 CODE >141:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+2C8 text28 CODE >142:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+2CA text28 CODE >143:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+2E4 text27 CODE >128:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+2E4 text27 CODE >130:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+2E6 text27 CODE >131:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+2E1 text26 CODE >113:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+2E1 text26 CODE >115:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+2E3 text26 CODE >116:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+2BF text25 CODE >139:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+2BF text25 CODE >141:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+2C2 text25 CODE >142:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+2C4 text25 CODE >143:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+2DE text24 CODE >128:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+2DE text24 CODE >130:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+2E0 text24 CODE >131:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+2DB text23 CODE >113:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+2DB text23 CODE >115:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+2DD text23 CODE >116:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+2B9 text22 CODE >139:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+2B9 text22 CODE >141:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+2BC text22 CODE >142:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+2BE text22 CODE >143:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+2D8 text21 CODE >128:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+2D8 text21 CODE >130:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+2DA text21 CODE >131:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+2D5 text20 CODE >113:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+2D5 text20 CODE >115:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+2D7 text20 CODE >116:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+2B3 text19 CODE >139:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+2B3 text19 CODE >141:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+2B6 text19 CODE >142:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+2B8 text19 CODE >143:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+2D2 text18 CODE >128:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+2D2 text18 CODE >130:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+2D4 text18 CODE >131:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+2CF text17 CODE >113:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+2CF text17 CODE >115:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+2D1 text17 CODE >116:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+30 text16 CODE >26:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+30 text16 CODE >31:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+31 text16 CODE >32:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+39 text16 CODE >33:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+3C text16 CODE >33:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+3E text16 CODE >33:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+43 text16 CODE >34:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+46 text16 CODE >34:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+48 text16 CODE >34:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+4D text16 CODE >35:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+55 text16 CODE >36:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+5B text16 CODE >37:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+5D text16 CODE >37:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+61 text16 CODE >37:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+65 text16 CODE >38:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+6E text16 CODE >38:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+70 text16 CODE >38:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+74 text16 CODE >39:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+7A text16 CODE >42:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+7C text16 CODE >42:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+80 text16 CODE >42:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+84 text16 CODE >43:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+8D text16 CODE >43:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+8F text16 CODE >43:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+93 text16 CODE >44:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+99 text16 CODE >48:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+A1 text16 CODE >49:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+A7 text16 CODE >49:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+AB text16 CODE >51:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+AF text16 CODE >51:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+B8 text16 CODE >51:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+BE text16 CODE >52:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+C0 text16 CODE >53:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+C2 text16 CODE >56:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+C4 text16 CODE >57:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+C5 text16 CODE >60:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+CD text16 CODE >61:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+D5 text16 CODE >62:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+DD text16 CODE >63:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+E5 text16 CODE >64:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+E8 text16 CODE >65:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+EB text16 CODE >66:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+EE text16 CODE >67:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+F1 text16 CODE >68:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+F4 text16 CODE >69:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+F7 text16 CODE >70:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+FA text16 CODE >71:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+FD text16 CODE >72:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1A0 text15 CODE >84:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1A0 text15 CODE >88:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1A1 text15 CODE >89:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1A2 text15 CODE >90:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1A3 text15 CODE >91:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1A8 text15 CODE >92:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1AA text15 CODE >93:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1AE text15 CODE >94:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1B5 text15 CODE >95:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1BB text15 CODE >95:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1BF text15 CODE >96:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1C5 text15 CODE >97:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1CB text15 CODE >97:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1CF text15 CODE >98:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1D2 text15 CODE >100:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+2E7 text14 CODE >169:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+2E7 text14 CODE >172:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+27B text13 CODE >147:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+27B text13 CODE >152:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+282 text13 CODE >154:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+287 text13 CODE >156:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+289 text13 CODE >157:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+296 text12 CODE >135:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+296 text12 CODE >138:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+29B text12 CODE >140:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+29E text12 CODE >142:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+28A text10 CODE >62:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+28A text10 CODE >65:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+28D text10 CODE >67:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+28E text10 CODE >69:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+290 text10 CODE >71:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+290 text10 CODE >73:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+295 text10 CODE >74:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+2AD text9 CODE >162:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+2AD text9 CODE >163:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+2B2 text9 CODE >164:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+163 text8 CODE >57:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+163 text8 CODE >62:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+165 text8 CODE >63:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+166 text8 CODE >64:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+167 text8 CODE >69:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+16A text8 CODE >70:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+16B text8 CODE >71:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+16D text8 CODE >76:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+16F text8 CODE >77:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+170 text8 CODE >78:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+172 text8 CODE >83:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+174 text8 CODE >84:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+175 text8 CODE >85:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+176 text8 CODE >86:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+178 text8 CODE >91:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+17A text8 CODE >92:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+17B text8 CODE >93:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+17C text8 CODE >98:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+17F text8 CODE >99:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+181 text8 CODE >100:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+183 text8 CODE >105:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+186 text8 CODE >106:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+188 text8 CODE >107:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+18A text8 CODE >114:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+18B text8 CODE >116:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+18C text8 CODE >118:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+18D text8 CODE >123:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+195 text8 CODE >126:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+196 text8 CODE >129:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+199 text8 CODE >130:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+19B text8 CODE >131:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+19D text8 CODE >132:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+19F text8 CODE >133:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
+24C text7 CODE >58:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+24C text7 CODE >63:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+24E text7 CODE >66:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+24F text7 CODE >69:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+251 text7 CODE >72:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+252 text7 CODE >75:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+253 text7 CODE >78:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+254 text7 CODE >81:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+255 text7 CODE >84:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+257 text7 CODE >87:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+259 text7 CODE >90:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+25B text7 CODE >93:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+25D text7 CODE >96:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+25E text7 CODE >99:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+260 text7 CODE >102:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+261 text7 CODE >105:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+262 text7 CODE >108:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+264 text7 CODE >110:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm1.c
+233 text6 CODE >58:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+233 text6 CODE >63:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+235 text6 CODE >66:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+236 text6 CODE >69:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+238 text6 CODE >72:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+239 text6 CODE >75:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+23A text6 CODE >78:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+23B text6 CODE >81:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+23C text6 CODE >84:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+23E text6 CODE >87:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+240 text6 CODE >90:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+242 text6 CODE >93:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+244 text6 CODE >96:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+245 text6 CODE >99:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+247 text6 CODE >102:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+248 text6 CODE >105:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+249 text6 CODE >108:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+24B text6 CODE >110:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm2.c
+21A text5 CODE >58:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+21A text5 CODE >63:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+21C text5 CODE >66:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+21D text5 CODE >69:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+21F text5 CODE >72:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+220 text5 CODE >75:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+221 text5 CODE >78:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+222 text5 CODE >81:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+223 text5 CODE >84:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+225 text5 CODE >87:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+227 text5 CODE >90:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+229 text5 CODE >93:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+22B text5 CODE >96:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+22C text5 CODE >99:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+22E text5 CODE >102:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+22F text5 CODE >105:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+230 text5 CODE >108:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+232 text5 CODE >110:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm3.c
+201 text4 CODE >58:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+201 text4 CODE >63:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+203 text4 CODE >66:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+204 text4 CODE >69:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+206 text4 CODE >72:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+207 text4 CODE >75:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+208 text4 CODE >78:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+209 text4 CODE >81:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+20A text4 CODE >84:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+20C text4 CODE >87:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+20E text4 CODE >90:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+210 text4 CODE >93:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+212 text4 CODE >96:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+213 text4 CODE >99:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+215 text4 CODE >102:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+216 text4 CODE >105:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+217 text4 CODE >108:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+219 text4 CODE >110:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
+2CB text3 CODE >76:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+2CB text3 CODE >79:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+2CE text3 CODE >80:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+265 text2 CODE >50:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+265 text2 CODE >53:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+268 text2 CODE >54:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+26B text2 CODE >55:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+26E text2 CODE >56:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+271 text2 CODE >57:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+274 text2 CODE >58:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+277 text2 CODE >59:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+27A text2 CODE >60:Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
+1D3 text1 CODE >76:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1D3 text1 CODE >77:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1DC text1 CODE >78:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1E8 text1 CODE >79:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+1F4 text1 CODE >80:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+200 text1 CODE >81:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+FE maintext CODE >108:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+FE maintext CODE >110:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+101 maintext CODE >111:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+109 maintext CODE >112:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+10C maintext CODE >113:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+10E maintext CODE >114:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+10F maintext CODE >115:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+110 maintext CODE >116:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+111 maintext CODE >117:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+112 maintext CODE >119:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+113 maintext CODE >120:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+11F maintext CODE >121:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+121 maintext CODE >123:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+121 maintext CODE >124:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+122 maintext CODE >125:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+128 maintext CODE >126:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+12C maintext CODE >127:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+130 maintext CODE >128:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+132 maintext CODE >128:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+136 maintext CODE >129:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+137 maintext CODE >130:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+13A maintext CODE >134:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+13C maintext CODE >137:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+141 maintext CODE >138:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+146 maintext CODE >142:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+14A maintext CODE >143:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+14C maintext CODE >143:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+150 maintext CODE >144:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+153 maintext CODE >149:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+155 maintext CODE >150:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+156 maintext CODE >151:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+157 maintext CODE >153:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+2A7 inittext CODE >5211:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+2A7 inittext CODE >5212:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+2A8 inittext CODE >5213:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+2A8 inittext CODE >5214:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+2A9 inittext CODE >5215:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+2AA inittext CODE >5216:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+2AB inittext CODE >5217:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
+2AC inittext CODE >5218:C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_1.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -464,17 +475,16 @@ F1 maintext CODE >95:Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-_i 2A 0 BANK0 1 bssBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
 ___latbits 2 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 __LdataBANK0 0 0 ABS 0 dataBANK0 -
-__Hspace_0 2B9 0 ABS 0 - -
-__Hspace_1 7D 0 ABS 0 - -
+__Hspace_0 2E8 0 ABS 0 - -
+__Hspace_1 7E 0 ABS 0 - -
 __Hspace_2 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
 __Hspace_4 10010 0 ABS 0 - -
 PWM2_DutyCycleSet@dutyCycleCount 70 0 COMMON 1 cstackCOMMON dist/default/production\coil6x6_rsv_active2.X.production.o
 __HidataBANK0 0 0 ABS 0 idataBANK0 -
-__end_of_PWM1_Initialize 46C 0 CODE 0 text6 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PWM1_Initialize 4CA 0 CODE 0 text7 dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM1LDCON D9F 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM1OFCON DA0 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM1CON D9B 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
@@ -518,12 +528,13 @@ _PWM2OFCON DB0 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.productio
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 _PWM3LDCON DBF 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM3OFCON DC0 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_PIN_MANAGER_IOC 4E0 0 CODE 0 text11 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PIN_MANAGER_IOC 53E 0 CODE 0 text12 dist/default/production\coil6x6_rsv_active2.X.production.o
 __L__absolute__ 0 0 ABS 0 __absolute__ -
 _PWM4LDCON DCF 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_WDT_Initialize 540 0 CODE 0 text2 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_WDT_Initialize 59E 0 CODE 0 text3 dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM4OFCON DD0 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 __Hstrings 0 0 ABS 0 strings -
+_servo_close 3A6 0 CODE 0 text1 dist/default/production\coil6x6_rsv_active2.X.production.o
 _LATA 10C 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _LATB 10D 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _LATC 10E 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
@@ -531,76 +542,78 @@ _PLLR 4D6 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _WPUA 20C 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _WPUB 20D 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _WPUC 20E 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
+___sp 0 0 STACK 2 stack C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
 _data 20 0 BANK0 1 bssBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
-_main 1C8 0 CODE 0 maintext dist/default/production\coil6x6_rsv_active2.X.production.o
+_main 1FC 0 CODE 0 maintext dist/default/production\coil6x6_rsv_active2.X.production.o
 _mode 29 0 BANK0 1 bssBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
-_pwm0 2B 0 BANK0 1 dataBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
+_pwm0 2A 0 BANK0 1 dataBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-start 26 0 CODE 0 init C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
+start 26 0 CODE 0 init C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
 _PWM2INTFbits DAD 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_PWM1_Start 56A 0 CODE 0 text25 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PWM1_Start 5C8 0 CODE 0 text26 dist/default/production\coil6x6_rsv_active2.X.production.o
 _OPTION_REGbits 95 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 __LidataBANK0 0 0 ABS 0 idataBANK0 -
-__end_of_IOCCF4_SetInterruptHandler 508 0 CODE 0 text8 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_IOCCF4_SetInterruptHandler 566 0 CODE 0 text9 dist/default/production\coil6x6_rsv_active2.X.production.o
 __Hpowerup 0 0 CODE 0 powerup -
-_PWM3_DutyCycleSet 514 0 CODE 0 text21 dist/default/production\coil6x6_rsv_active2.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
-_PWM1_Initialize 43A 0 CODE 0 text6 dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_PWM2_LoadBufferSet 564 0 CODE 0 text23 dist/default/production\coil6x6_rsv_active2.X.production.o
-_IOCCF4_ISR 498 0 CODE 0 text12 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PWM3_DutyCycleSet 572 0 CODE 0 text22 dist/default/production\coil6x6_rsv_active2.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
+_PWM1_Initialize 498 0 CODE 0 text7 dist/default/production\coil6x6_rsv_active2.X.production.o
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+__end_of_PWM2_LoadBufferSet 5C2 0 CODE 0 text24 dist/default/production\coil6x6_rsv_active2.X.production.o
+_IOCCF4_ISR 4F6 0 CODE 0 text13 dist/default/production\coil6x6_rsv_active2.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
-_PIN_MANAGER_IOC 4CE 0 CODE 0 text11 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PIN_MANAGER_IOC 52C 0 CODE 0 text12 dist/default/production\coil6x6_rsv_active2.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext -
-__end_of_PWM4_DutyCycleSet 514 0 CODE 0 text18 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PWM4_DutyCycleSet 572 0 CODE 0 text19 dist/default/production\coil6x6_rsv_active2.X.production.o
 PWM1_DutyCycleSet@dutyCycleCount 70 0 COMMON 1 cstackCOMMON dist/default/production\coil6x6_rsv_active2.X.production.o
 _ANSELA 18C 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _ANSELB 18D 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _ANSELC 18E 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _BORCON 116 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 __end_of_INTERRUPT_InterruptManager 26 0 CODE 0 intentry dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_PWM2_Initialize 43A 0 CODE 0 text5 dist/default/production\coil6x6_rsv_active2.X.production.o
-_PWM2_LoadBufferSet 55E 0 CODE 0 text23 dist/default/production\coil6x6_rsv_active2.X.production.o
-_int_strb 33E 0 CODE 0 text14 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PWM2_Initialize 498 0 CODE 0 text6 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PWM2_LoadBufferSet 5BC 0 CODE 0 text24 dist/default/production\coil6x6_rsv_active2.X.production.o
+_int_strb 340 0 CODE 0 text15 dist/default/production\coil6x6_rsv_active2.X.production.o
 __Lmaintext 0 0 ABS 0 maintext -
-_PWM2_Start 558 0 CODE 0 text22 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PWM2_Start 5B6 0 CODE 0 text23 dist/default/production\coil6x6_rsv_active2.X.production.o
 __LnvBANK0 0 0 ABS 0 nvBANK0 -
 set_pwm@d 77 0 COMMON 1 cstackCOMMON dist/default/production\coil6x6_rsv_active2.X.production.o
 set_pwm@i 74 0 COMMON 1 cstackCOMMON dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_int_strb 3A4 0 CODE 0 text14 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_int_strb 3A6 0 CODE 0 text15 dist/default/production\coil6x6_rsv_active2.X.production.o
 _INLVLA 38C 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _INLVLB 38D 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _INLVLC 38E 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_IOCCF4_ISR 4B6 0 CODE 0 text12 dist/default/production\coil6x6_rsv_active2.X.production.o
-___stackhi 0 0 ABS 0 - C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
-___stacklo 0 0 ABS 0 - C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
+__end_of_IOCCF4_ISR 514 0 CODE 0 text13 dist/default/production\coil6x6_rsv_active2.X.production.o
+___stackhi 0 0 ABS 0 - C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
+___stacklo 0 0 ABS 0 - C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
 _PWM3CLKCON DBE 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-_PIN_MANAGER_Initialize 2C4 0 CODE 0 text7 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PIN_MANAGER_Initialize 2C6 0 CODE 0 text8 dist/default/production\coil6x6_rsv_active2.X.production.o
 start_initialization 2A 0 CODE 0 cinit dist/default/production\coil6x6_rsv_active2.X.production.o
 _ODCONA 28C 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _ODCONB 28D 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _ODCONC 28E 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _OSCCON 99 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_set_pwm 1C8 0 CODE 0 text15 dist/default/production\coil6x6_rsv_active2.X.production.o
-_PWM2_Initialize 408 0 CODE 0 text5 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_set_pwm 1FC 0 CODE 0 text16 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PWM2_Initialize 466 0 CODE 0 text6 dist/default/production\coil6x6_rsv_active2.X.production.o
 _TRISBbits 8D 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _RA0PPS E90 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _RB4PPS E9C 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _RB5PPS E9D 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _RC0PPS EA0 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_SYSTEM_Initialize 498 0 CODE 0 text1 dist/default/production\coil6x6_rsv_active2.X.production.o
-_PWM4_DutyCycleSet 508 0 CODE 0 text18 dist/default/production\coil6x6_rsv_active2.X.production.o
-__pcstackBANK0 33 0 BANK0 1 cstackBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_PWM2_Start 55E 0 CODE 0 text22 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_SYSTEM_Initialize 4F6 0 CODE 0 text2 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PWM4_DutyCycleSet 566 0 CODE 0 text19 dist/default/production\coil6x6_rsv_active2.X.production.o
+__pcstackBANK0 32 0 BANK0 1 cstackBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PWM2_Start 5BC 0 CODE 0 text23 dist/default/production\coil6x6_rsv_active2.X.production.o
 _WDTCON 97 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
-__end_of_PWM3_Initialize 408 0 CODE 0 text4 dist/default/production\coil6x6_rsv_active2.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
+__end_of_PWM3_Initialize 466 0 CODE 0 text5 dist/default/production\coil6x6_rsv_active2.X.production.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -635,7 +648,7 @@ __Hsfr29 0 0 ABS 0 sfr29 -
 __Hsfr30 0 0 ABS 0 sfr30 -
 __Hsfr31 0 0 ABS 0 sfr31 -
 __Hstack 0 0 STACK 2 stack -
-__end_of_PWM4_LoadBufferSet 54C 0 CODE 0 text17 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PWM4_LoadBufferSet 5AA 0 CODE 0 text18 dist/default/production\coil6x6_rsv_active2.X.production.o
 __Hbank10 0 0 ABS 0 bank10 -
 __Hbank11 0 0 ABS 0 bank11 -
 __Hbank12 0 0 ABS 0 bank12 -
@@ -696,7 +709,8 @@ __Lsfr29 0 0 ABS 0 sfr29 -
 __Lsfr30 0 0 ABS 0 sfr30 -
 __Lsfr31 0 0 ABS 0 sfr31 -
 __Lstack 0 0 STACK 2 stack -
-init_ram 4F0 0 CODE 0 inittext dist/default/production\coil6x6_rsv_active2.X.production.o
+init_ram 54E 0 CODE 0 inittext dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_servo_close 402 0 CODE 0 text1 dist/default/production\coil6x6_rsv_active2.X.production.o
 __Linittext 0 0 ABS 0 inittext -
 _PORTAbits C 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _PORTBbits D 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
@@ -732,55 +746,56 @@ __Lsfr7 0 0 ABS 0 sfr7 -
 __Lsfr8 0 0 ABS 0 sfr8 -
 __Lsfr9 0 0 ABS 0 sfr9 -
 __Ltext 0 0 ABS 0 text -
-__pnvBANK0 37 0 BANK0 1 nvBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_PWM1_DutyCycleSet 538 0 CODE 0 text27 dist/default/production\coil6x6_rsv_active2.X.production.o
+__pnvBANK0 36 0 BANK0 1 nvBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PWM1_DutyCycleSet 596 0 CODE 0 text28 dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM4CONbits DCB 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 -
 int$flags 7E 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 __HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
-_IOCCF4_SetInterruptHandler 4FC 0 CODE 0 text8 dist/default/production\coil6x6_rsv_active2.X.production.o
-__S0 2B9 0 ABS 0 - -
-__S1 7D 0 ABS 0 - -
-_PWM4_LoadBufferSet 546 0 CODE 0 text17 dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_PWM1_LoadBufferSet 570 0 CODE 0 text26 dist/default/production\coil6x6_rsv_active2.X.production.o
-_PWM3_Initialize 3D6 0 CODE 0 text4 dist/default/production\coil6x6_rsv_active2.X.production.o
+_IOCCF4_SetInterruptHandler 55A 0 CODE 0 text9 dist/default/production\coil6x6_rsv_active2.X.production.o
+__S0 2E8 0 ABS 0 - -
+__S1 7E 0 ABS 0 - -
+_PWM4_LoadBufferSet 5A4 0 CODE 0 text18 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PWM1_LoadBufferSet 5CE 0 CODE 0 text27 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PWM3_Initialize 434 0 CODE 0 text5 dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM3INTFbits DBD 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-_SYSTEM_Initialize 46C 0 CODE 0 text1 dist/default/production\coil6x6_rsv_active2.X.production.o
-_PWM3_Start 54C 0 CODE 0 text19 dist/default/production\coil6x6_rsv_active2.X.production.o
+_SYSTEM_Initialize 4CA 0 CODE 0 text2 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PWM3_Start 5AA 0 CODE 0 text20 dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM3CONbits DBB 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 __HnvBANK0 0 0 ABS 0 nvBANK0 -
 __Lintentry 8 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
-__pdataBANK0 2B 0 BANK0 1 dataBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
+__pdataBANK0 2A 0 BANK0 1 dataBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
-_PWM1_LoadBufferSet 56A 0 CODE 0 text26 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PWM1_LoadBufferSet 5C8 0 CODE 0 text27 dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM1LDCONbits D9F 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM4CLKCON DCE 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_PWM4_Initialize 3D6 0 CODE 0 text3 dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_IOCCF4_DefaultInterruptHandler 572 0 CODE 0 text13 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PWM4_Initialize 434 0 CODE 0 text4 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_IOCCF4_DefaultInterruptHandler 5D0 0 CODE 0 text14 dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM2LDCONbits DAF 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext11 4CE 0 CODE 0 text11 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext12 498 0 CODE 0 text12 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext13 570 0 CODE 0 text13 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext14 33E 0 CODE 0 text14 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext15 60 0 CODE 0 text15 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext16 540 0 CODE 0 text16 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext17 546 0 CODE 0 text17 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext18 508 0 CODE 0 text18 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext19 54C 0 CODE 0 text19 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext20 552 0 CODE 0 text20 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext21 514 0 CODE 0 text21 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext22 558 0 CODE 0 text22 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext23 55E 0 CODE 0 text23 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext24 520 0 CODE 0 text24 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext25 564 0 CODE 0 text25 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext26 56A 0 CODE 0 text26 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext27 52C 0 CODE 0 text27 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext10 514 0 CODE 0 text10 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext12 52C 0 CODE 0 text12 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext13 4F6 0 CODE 0 text13 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext14 5CE 0 CODE 0 text14 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext15 340 0 CODE 0 text15 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext16 60 0 CODE 0 text16 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext17 59E 0 CODE 0 text17 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext18 5A4 0 CODE 0 text18 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext19 566 0 CODE 0 text19 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext20 5AA 0 CODE 0 text20 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext21 5B0 0 CODE 0 text21 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext22 572 0 CODE 0 text22 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext23 5B6 0 CODE 0 text23 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext24 5BC 0 CODE 0 text24 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext25 57E 0 CODE 0 text25 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext26 5C2 0 CODE 0 text26 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext27 5C8 0 CODE 0 text27 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext28 58A 0 CODE 0 text28 dist/default/production\coil6x6_rsv_active2.X.production.o
 _IOCCFbits 399 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _IOCCNbits 398 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _IOCCPbits 397 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_PIN_MANAGER_Initialize 33E 0 CODE 0 text7 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PIN_MANAGER_Initialize 340 0 CODE 0 text8 dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM3LDCONbits DBF 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 __Lbank10 0 0 ABS 0 bank10 -
 __Lbank11 0 0 ABS 0 bank11 -
@@ -807,7 +822,7 @@ __Lbank31 0 0 BANK31 1 bank31 -
 int_strb@b 7B 0 COMMON 1 cstackCOMMON dist/default/production\coil6x6_rsv_active2.X.production.o
 int_strb@d 7A 0 COMMON 1 cstackCOMMON dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM1INTFbits D9D 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-__pmaintext 1C8 0 CODE 0 maintext dist/default/production\coil6x6_rsv_active2.X.production.o
+__pmaintext 1FC 0 CODE 0 maintext dist/default/production\coil6x6_rsv_active2.X.production.o
 __Lbigram 0 0 ABS 0 bigram -
 _PWM2CONbits DAB 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 __Lcommon 0 0 ABS 0 common -
@@ -818,21 +833,22 @@ _LATAbits 10C 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production
 _LATBbits 10D 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _LATCbits 10E 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 set_pwm@d0 75 0 COMMON 1 cstackCOMMON dist/default/production\coil6x6_rsv_active2.X.production.o
-_PWM1_DutyCycleSet 52C 0 CODE 0 text27 dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_PWM3_Start 552 0 CODE 0 text19 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PWM1_DutyCycleSet 58A 0 CODE 0 text28 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PWM3_Start 5B0 0 CODE 0 text20 dist/default/production\coil6x6_rsv_active2.X.production.o
 PWM4_DutyCycleSet@dutyCycleCount 70 0 COMMON 1 cstackCOMMON dist/default/production\coil6x6_rsv_active2.X.production.o
 _OSCTUNE 98 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM1CLKCON D9E 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-_set_pwm 60 0 CODE 0 text15 dist/default/production\coil6x6_rsv_active2.X.production.o
+_set_pwm 60 0 CODE 0 text16 dist/default/production\coil6x6_rsv_active2.X.production.o
 _cnt_push 28 0 BANK0 1 bssBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_2 0 0 ABS 0 - -
 __Lspace_3 0 0 ABS 0 - -
 __Lspace_4 0 0 ABS 0 - -
-__end_of_PWM2_DutyCycleSet 52C 0 CODE 0 text24 dist/default/production\coil6x6_rsv_active2.X.production.o
+__pbssCOMMON 7D 0 COMMON 1 bssCOMMON dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PWM2_DutyCycleSet 58A 0 CODE 0 text25 dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM1CONbits D9B 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-_PWM4_Initialize 3A4 0 CODE 0 text3 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PWM4_Initialize 402 0 CODE 0 text4 dist/default/production\coil6x6_rsv_active2.X.production.o
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 -
 __Lend_init 26 0 CODE 0 end_init -
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
@@ -841,34 +857,34 @@ __Hintentry 26 0 CODE 0 intentry -
 __Lstrings 0 0 ABS 0 strings -
 __Hreset_vec 4 0 CODE 0 reset_vec -
 __HbssBANK0 0 0 ABS 0 bssBANK0 -
-__ptext1 46C 0 CODE 0 text1 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext2 538 0 CODE 0 text2 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext3 3A4 0 CODE 0 text3 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext4 3D6 0 CODE 0 text4 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext5 408 0 CODE 0 text5 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext6 43A 0 CODE 0 text6 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext7 2C4 0 CODE 0 text7 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext8 4FC 0 CODE 0 text8 dist/default/production\coil6x6_rsv_active2.X.production.o
-__ptext9 4B6 0 CODE 0 text9 dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_PWM3_LoadBufferSet 558 0 CODE 0 text20 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext1 3A6 0 CODE 0 text1 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext2 4CA 0 CODE 0 text2 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext3 596 0 CODE 0 text3 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext4 402 0 CODE 0 text4 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext5 434 0 CODE 0 text5 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext6 466 0 CODE 0 text6 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext7 498 0 CODE 0 text7 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext8 2C6 0 CODE 0 text8 dist/default/production\coil6x6_rsv_active2.X.production.o
+__ptext9 55A 0 CODE 0 text9 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PWM3_LoadBufferSet 5B6 0 CODE 0 text21 dist/default/production\coil6x6_rsv_active2.X.production.o
 __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
 __H__absolute__ 0 0 ABS 0 __absolute__ -
 __Lreset_vec 0 0 CODE 0 reset_vec -
-_IOCCF4_DefaultInterruptHandler 570 0 CODE 0 text13 dist/default/production\coil6x6_rsv_active2.X.production.o
+_IOCCF4_DefaultInterruptHandler 5CE 0 CODE 0 text14 dist/default/production\coil6x6_rsv_active2.X.production.o
 _SLRCONA 30C 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _SLRCONB 30D 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _SLRCONC 30E 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-___heap_hi 0 0 ABS 0 - C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
-___heap_lo 0 0 ABS 0 - C:\Users\IDK\AppData\Local\Temp\xcAsd0o.\driver_tmp_12.o
+___heap_hi 0 0 ABS 0 - C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
+___heap_lo 0 0 ABS 0 - C:\Users\IDK\AppData\Local\Temp\xcAsb5k.\driver_tmp_12.o
 __end_of__initialization 58 0 CODE 0 cinit dist/default/production\coil6x6_rsv_active2.X.production.o
 __Lfunctab 0 0 ENTRY 0 functab -
-IOCCF4_SetInterruptHandler@InterruptHandler 33 0 BANK0 1 cstackBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
-_PWM4_Start 540 0 CODE 0 text16 dist/default/production\coil6x6_rsv_active2.X.production.o
+IOCCF4_SetInterruptHandler@InterruptHandler 32 0 BANK0 1 cstackBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PWM4_Start 59E 0 CODE 0 text17 dist/default/production\coil6x6_rsv_active2.X.production.o
 PWM3_DutyCycleSet@dutyCycleCount 70 0 COMMON 1 cstackCOMMON dist/default/production\coil6x6_rsv_active2.X.production.o
-__pidataBANK0 4E0 0 CODE 0 idataBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
+__pidataBANK0 53E 0 CODE 0 idataBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext -
-_PWM3_LoadBufferSet 552 0 CODE 0 text20 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PWM3_LoadBufferSet 5B0 0 CODE 0 text21 dist/default/production\coil6x6_rsv_active2.X.production.o
 int_strb@idx 7C 0 COMMON 1 cstackCOMMON dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM1INTE D9C 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM1INTF D9D 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
@@ -887,27 +903,27 @@ _PWM4INTF DCD 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production
 _PWM4TMRH DCA 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM4TMRL DC9 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 __pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\coil6x6_rsv_active2.X.production.o
-_PWM2_DutyCycleSet 520 0 CODE 0 text24 dist/default/production\coil6x6_rsv_active2.X.production.o
-_IOCCF4_InterruptHandler 37 0 BANK0 1 nvBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PWM2_DutyCycleSet 57E 0 CODE 0 text25 dist/default/production\coil6x6_rsv_active2.X.production.o
+_IOCCF4_InterruptHandler 36 0 BANK0 1 nvBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
 __Hend_init 2A 0 CODE 0 end_init -
-__end_of_main 2C4 0 CODE 0 maintext dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_main 2C6 0 CODE 0 maintext dist/default/production\coil6x6_rsv_active2.X.production.o
 _TRISA 8C 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _TRISB 8D 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _TRISC 8E 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
-_WDT_Initialize 538 0 CODE 0 text2 dist/default/production\coil6x6_rsv_active2.X.production.o
+_WDT_Initialize 596 0 CODE 0 text3 dist/default/production\coil6x6_rsv_active2.X.production.o
 __pintentry 8 0 CODE 0 intentry dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_PWM3_DutyCycleSet 520 0 CODE 0 text21 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PWM3_DutyCycleSet 57E 0 CODE 0 text22 dist/default/production\coil6x6_rsv_active2.X.production.o
 __HdataBANK0 0 0 ABS 0 dataBANK0 -
-_PWM1_Start 564 0 CODE 0 text25 dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_OSCILLATOR_Initialize 4CE 0 CODE 0 text9 dist/default/production\coil6x6_rsv_active2.X.production.o
+_PWM1_Start 5C2 0 CODE 0 text26 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_OSCILLATOR_Initialize 52C 0 CODE 0 text10 dist/default/production\coil6x6_rsv_active2.X.production.o
 __initialization 2A 0 CODE 0 cinit dist/default/production\coil6x6_rsv_active2.X.production.o
 __pbssBANK0 20 0 BANK0 1 bssBANK0 dist/default/production\coil6x6_rsv_active2.X.production.o
-__end_of_PWM4_Start 546 0 CODE 0 text16 dist/default/production\coil6x6_rsv_active2.X.production.o
+__end_of_PWM4_Start 5A4 0 CODE 0 text17 dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM4INTFbits DCD 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
 _PWM2CLKCON DAE 0 ABS 0 - dist/default/production\coil6x6_rsv_active2.X.production.o
-_OSCILLATOR_Initialize 4B6 0 CODE 0 text9 dist/default/production\coil6x6_rsv_active2.X.production.o
+_OSCILLATOR_Initialize 514 0 CODE 0 text10 dist/default/production\coil6x6_rsv_active2.X.production.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -933,10 +949,10 @@ _OSCILLATOR_Initialize 4B6 0 CODE 0 text9 dist/default/production\coil6x6_rsv_ac
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-cstackCOMMON 1 70 70 D 1
-intentry 0 4 8 2B5 2
+cstackCOMMON 1 70 70 E 1
+intentry 0 4 8 2E4 2
 reset_vec 0 0 0 2 2
-bssBANK0 1 20 20 19 1
+bssBANK0 1 20 20 18 1
 # %NOTES Section
 # This section contains data of all the note-psects.  The beginning of the section
 # is indicated by %NOTES. The first line indicates the name and decimal

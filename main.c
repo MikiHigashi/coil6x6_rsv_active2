@@ -48,6 +48,15 @@ void set_pwm(void) {
         pwm0[i] = d;
     }
 
+    if ((data.pwm[1] == PWM_NT) && (data.pwm[2] == PWM_NT)) {
+        GEARR_SetHigh();
+        GEARL_SetHigh();
+    }
+    else {
+        GEARR_SetLow();
+        GEARL_SetLow();
+    }
+    
     PWM1_DutyCycleSet(pwm0[0]);
     PWM2_DutyCycleSet(pwm0[1]);
     PWM3_DutyCycleSet(pwm0[2]);
@@ -60,6 +69,15 @@ void set_pwm(void) {
     PWM2_Start();
     PWM3_Start();
     PWM4_Start();
+}
+
+
+// 装填サーボ閉
+void servo_close(void) {
+    data.pwm[0] = pwm0[0] = 12000 + 2800;
+    data.pwm[1] = pwm0[1] = PWM_NT;
+    data.pwm[2] = pwm0[2] = PWM_NT;
+    data.pwm[3] = pwm0[3] = 12000 - 2800;
 }
 
 
@@ -91,9 +109,7 @@ void main(void)
 {
     SYSTEM_Initialize();
     IOCCF4_SetInterruptHandler(int_strb);
-    for (i=0; i<4; i++) {
-        data.pwm[i] = pwm0[i] = PWM_NT;
-    }
+    servo_close();
     PICOUT_SetHigh();
     DCDC_SetHigh();
     LED2_SetHigh();
@@ -103,7 +119,6 @@ void main(void)
     LED1_SetHigh();
     __delay_ms(100);
     LED1_SetLow();
-
     
     while (1) {
         CLRWDT();

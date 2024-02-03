@@ -13,9 +13,11 @@
 [v _LCD_i2C_cmd LCD_i2C_cmd `(v  1 e 1 0 ]
 "26 Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
 [v _set_pwm set_pwm `(v  1 e 1 0 ]
-"66
+"76
+[v _servo_close servo_close `(v  1 e 1 0 ]
+"84
 [v _int_strb int_strb `(v  1 e 1 0 ]
-"90
+"108
 [v _main main `(v  1 e 1 0 ]
 "52 Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
@@ -102,16 +104,16 @@
 "444
 [u S1066 . 1 `S1059 1 . 1 0 ]
 [v _PORTAbits PORTAbits `VES1066  1 e 1 @12 ]
-[s S1210 . 1 `uc 1 . 1 0 :4:0 
+[s S1212 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 RB4 1 0 :1:4 
 `uc 1 RB5 1 0 :1:5 
 `uc 1 RB6 1 0 :1:6 
 `uc 1 RB7 1 0 :1:7 
 ]
 "493
-[u S1216 . 1 `S1210 1 . 1 0 ]
-[v _PORTBbits PORTBbits `VES1216  1 e 1 @13 ]
-[s S973 . 1 `uc 1 RC0 1 0 :1:0 
+[u S1218 . 1 `S1212 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES1218  1 e 1 @13 ]
+[s S1011 . 1 `uc 1 RC0 1 0 :1:0 
 `uc 1 RC1 1 0 :1:1 
 `uc 1 RC2 1 0 :1:2 
 `uc 1 RC3 1 0 :1:3 
@@ -121,21 +123,21 @@
 `uc 1 RC7 1 0 :1:7 
 ]
 "535
-[u S982 . 1 `S973 1 . 1 0 ]
-[v _PORTCbits PORTCbits `VES982  1 e 1 @14 ]
+[u S1020 . 1 `S1011 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES1020  1 e 1 @14 ]
 "1024
 [v _TRISA TRISA `VEuc  1 e 1 @140 ]
 "1074
 [v _TRISB TRISB `VEuc  1 e 1 @141 ]
-[s S1193 . 1 `uc 1 . 1 0 :4:0 
+[s S1195 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TRISB4 1 0 :1:4 
 `uc 1 TRISB5 1 0 :1:5 
 `uc 1 TRISB6 1 0 :1:6 
 `uc 1 TRISB7 1 0 :1:7 
 ]
 "1088
-[u S1199 . 1 `S1193 1 . 1 0 ]
-[v _TRISBbits TRISBbits `VES1199  1 e 1 @141 ]
+[u S1201 . 1 `S1195 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES1201  1 e 1 @141 ]
 "1113
 [v _TRISC TRISC `VEuc  1 e 1 @142 ]
 [s S35 . 1 `uc 1 PS0 1 0 :1:0 
@@ -163,7 +165,7 @@
 [v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
 "1927
 [v _LATA LATA `VEuc  1 e 1 @268 ]
-[s S1018 . 1 `uc 1 LATA0 1 0 :1:0 
+[s S961 . 1 `uc 1 LATA0 1 0 :1:0 
 `uc 1 LATA1 1 0 :1:1 
 `uc 1 LATA2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -171,22 +173,22 @@
 `uc 1 LATA5 1 0 :1:5 
 ]
 "1942
-[u S1025 . 1 `S1018 1 . 1 0 ]
-[v _LATAbits LATAbits `VES1025  1 e 1 @268 ]
+[u S968 . 1 `S961 1 . 1 0 ]
+[v _LATAbits LATAbits `VES968  1 e 1 @268 ]
 "1972
 [v _LATB LATB `VEuc  1 e 1 @269 ]
-[s S1178 . 1 `uc 1 . 1 0 :4:0 
+[s S1180 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 LATB4 1 0 :1:4 
 `uc 1 LATB5 1 0 :1:5 
 `uc 1 LATB6 1 0 :1:6 
 `uc 1 LATB7 1 0 :1:7 
 ]
 "1986
-[u S1184 . 1 `S1178 1 . 1 0 ]
-[v _LATBbits LATBbits `VES1184  1 e 1 @269 ]
+[u S1186 . 1 `S1180 1 . 1 0 ]
+[v _LATBbits LATBbits `VES1186  1 e 1 @269 ]
 "2011
 [v _LATC LATC `VEuc  1 e 1 @270 ]
-[s S997 . 1 `uc 1 LATC0 1 0 :1:0 
+[s S978 . 1 `uc 1 LATC0 1 0 :1:0 
 `uc 1 LATC1 1 0 :1:1 
 `uc 1 LATC2 1 0 :1:2 
 `uc 1 LATC3 1 0 :1:3 
@@ -196,8 +198,8 @@
 `uc 1 LATC7 1 0 :1:7 
 ]
 "2028
-[u S1006 . 1 `S997 1 . 1 0 ]
-[v _LATCbits LATCbits `VES1006  1 e 1 @270 ]
+[u S987 . 1 `S978 1 . 1 0 ]
+[v _LATCbits LATCbits `VES987  1 e 1 @270 ]
 "2357
 [v _BORCON BORCON `VEuc  1 e 1 @278 ]
 "2573
@@ -571,18 +573,21 @@
 [u S958 tagPWM4 8 `[4]us 1 pwm 8 0 `[8]uc 1 buf 8 0 ]
 "23
 [v _data data `S958  1 e 8 0 ]
-"85
-[v _i i `uc  1 e 1 0 ]
-"86
+"104
 [v _mode mode `uc  1 e 1 0 ]
-"87
+"105
 [v _cnt_push cnt_push `uc  1 e 1 0 ]
 "54 Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pin_manager.c
 [v _IOCCF4_InterruptHandler IOCCF4_InterruptHandler `*.37(v  1 e 2 0 ]
-"90 Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+"108 Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"144
+"159
+} 0
+"76
+[v _servo_close servo_close `(v  1 e 1 0 ]
+{
+"81
 } 0
 "50 Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
@@ -650,15 +655,15 @@
 {
 "172
 } 0
-"66 Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
+"84 Z:\coil6x6\power\coil6x6_rsv_active2.X\main.c
 [v _int_strb int_strb `(v  1 e 1 0 ]
 {
-"70
+"88
 [v int_strb@idx idx `uc  1 a 1 12 ]
-"67
+"85
 [v int_strb@b b `uc  1 a 1 11 ]
 [v int_strb@d d `uc  1 a 1 10 ]
-"82
+"100
 } 0
 "26
 [v _set_pwm set_pwm `(v  1 e 1 0 ]
@@ -669,7 +674,7 @@
 [v set_pwm@d0 d0 `us  1 a 2 5 ]
 "27
 [v set_pwm@i i `uc  1 a 1 4 ]
-"63
+"72
 } 0
 "113 Z:\coil6x6\power\coil6x6_rsv_active2.X\mcc_generated_files/pwm4.c
 [v _PWM4_Start PWM4_Start `(v  1 e 1 0 ]
